@@ -18,8 +18,15 @@
 body {
   background-color: var(--first-fon-color);
   color: var(--first-color-text);
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
 }
 
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: var(--secondary-color-text);
+}
 ul {
   list-style: none;
 }
@@ -27,11 +34,9 @@ ul {
 .link {
   text-decoration: none;
   color: var(--first-color-text);
+  font-family: Roboto, sans-serif;
 }
 
-.link:visited {
-  color: var(--secondary-button-color);
-}
 .link:hover,
 .link:focus {
   color: var(--secondary-button-color);
@@ -40,6 +45,85 @@ ul {
 .link:active {
   color: var(--secondary-button-color);
 }
-.span-logo {
+/*оформление шапки */
+.head-logo {
+  font-weight: bold;
+  color: var(--secondary-button-color);
+  font-size: 26px;
+  font-family: Raleway, sans-serif;
+}
+.head-logo .span-logo {
   color: var(--logo-color);
+}
+
+/*оформлення тіла*/
+/*оформлення постера*/
+.main-poster {
+  background-color: var(--secondary-fon-color);
+}
+.main-poster > h1 {
+  color: var(--first-fon-color);
+  font-size: 44px;
+  font-family: Roboto, sans-serif;
+  font-weight: Black;
+  text-transform: uppercase;
+}
+.object-none {
+  display: none;
+}
+.button-secondary {
+  background-color: var(--secondary-button-color);
+  color: var(--first-fon-color);
+  font-size: 16px;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+
+/*оформлення секції переваг*/
+.our-aim {
+  color: var(--secondary-color-text);
+  font-weight: bold;
+}
+
+/*оформлення секції чим ми зайсаємось*/
+
+.main-work li {
+  display: inline;
+}
+
+/*оформлення секції наша команда*/
+.main-team {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}
+
+.team-cards {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+  display: inline-block;
+}
+
+.my-name {
+  color: var(--secondary-color-text);
+  font-weight: bold;
+}
+/*оформлення підвалу*/
+footer {
+  background-color: var(--secondary-fon-color);
+  color: var(--first-fon-color);
+}
+address {
+  font-weight: normal;
+}
+.span-logo-footer {
+  color: var(--first-fon-color);
+  font-family: Raleway, sans-serif;
+}
+.link-footer {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-weight: normal;
 }
