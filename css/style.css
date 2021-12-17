@@ -4,7 +4,42 @@
 /* вспомогательный цвет текста #212121 */
 /* цвет кнопок главный #F5F4FA */
 /* цвет кнопок вспомогательны #2196F3 */
+/*цвет лого #000000 */
 
 :root {
-    -- main-fon-color:#FFFFFF;
+  --first-fon-color: #ffffff;
+  --secondary-fon-color: #2f303a;
+  --first-color-text: #757575;
+  --secondary-color-text: #212121;
+  --first-button-color: #f5f4fa;
+  --secondary-button-color: #2196f3;
+  --logo-color: #000000;
+}
+body {
+  background-color: var(--first-fon-color);
+  color: var(--first-color-text);
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--first-color-text);
+}
+
+/*.link:visited {
+  color: var(--secondary-button-color);
+}*/
+.link:hover,
+.link:focus {
+  color: var(--secondary-button-color);
+}
+
+.link:active {
+  color: var(--secondary-button-color);
+}
+.span-logo {
+  color: var(--logo-color);
 }
