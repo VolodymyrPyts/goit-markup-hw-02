@@ -29,9 +29,9 @@ ul {
   color: var(--first-color-text);
 }
 
-/*.link:visited {
+.link:visited {
   color: var(--secondary-button-color);
-}*/
+}
 .link:hover,
 .link:focus {
   color: var(--secondary-button-color);
