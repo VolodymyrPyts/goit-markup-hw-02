@@ -21,7 +21,7 @@ body {
   font-size: 14px;
   font-family: Roboto, sans-serif;
 }
-
+/*Сторінка студія*/
 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -126,4 +126,49 @@ address {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-weight: normal;
+}
+
+/*Сторінка портфоліо*/
+/*
+.work {
+  width: 1170px;
+  height: 1360px;
+} */
+
+.filtr {
+  display: inline;
+}
+
+.filtr-button {
+  height: 38px;
+  background-color: var(--first-button-color);
+  color: var(--secondary-color-text);
+  border: none;
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+  background-color: var(--secondary-button-color);
+  color: var(--first-fon-color);
+}
+
+.filtr-button:active {
+  background-color: var(--secondary-button-color);
+  color: var(--first-fon-color);
+}
+
+.project .project-card {
+  border: 1px #eeeeee solid;
+  width: 370px;
+  height: 404px;
+}
+.project-card h3 {
+  font-size: 18px;
+  font-family: Raleway, sans-serif;
+  color: var(--secondary-color-text);
+}
+.project-card p {
+  font-size: 16px;
+  font-family: Raleway, sans-serif;
+  color: var(--first-color-text);
 }
