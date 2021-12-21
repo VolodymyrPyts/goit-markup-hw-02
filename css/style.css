@@ -19,44 +19,45 @@ body {
   background-color: var(--first-fon-color);
   color: var(--first-color-text);
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
-/*Сторінка студія*/
-h2 {
-  font-size: 36px;
-  font-weight: bold;
-  color: var(--secondary-color-text);
+
+.head-logo {
+  text-decoration: none;
+  color: var(--secondary-button-color);
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-size: 26px;
   font-weight: 700;
+  line-height: 1.2;
 }
-ul {
+
+.head-nav,
+.head-adress {
   list-style: none;
+}
+
+.span-logo {
+  color: var(--secondary-color-text);
 }
 
 .link {
   text-decoration: none;
-  color: var(--first-color-text);
-  font-family: Roboto, sans-serif;
+  font-size: 14px;
   font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
 }
 
 .link:hover,
 .link:focus {
   color: var(--secondary-button-color);
 }
-
 .link:active {
   color: var(--secondary-button-color);
-}
-/*оформление шапки */
-.head-logo {
-  font-weight: 700;
-  color: var(--secondary-button-color);
-  font-size: 26px;
-  font-family: Raleway, sans-serif;
-}
-.head-logo .span-logo {
-  color: var(--logo-color);
 }
 
 /*оформлення тіла*/
@@ -64,122 +65,44 @@ ul {
 .main-poster {
   background-color: var(--secondary-fon-color);
 }
-.main-poster > h1 {
+
+.heading-taxt {
   color: var(--first-fon-color);
-  font-size: 44px;
-  font-family: Roboto, sans-serif;
-  font-weight: 900;
   text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
 }
+
+.button-secondary {
+  cursor: pointer;
+  background-color: var(--secondary-button-color);
+  color: var(--first-fon-color);
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.9;
+  font-weight: 700;
+}
+/*оформление блока наши возможности*/
 .object-none {
   display: none;
+  list-style: none;
 }
-.button-secondary {
-  background-color: var(--secondary-button-color);
-  color: var(--first-fon-color);
-  font-size: 16px;
-  border: none;
-  width: 200px;
-  height: 50px;
-  font-weight: 700;
+.our-work {
+  list-style: none;
 }
 
-/*оформлення секції переваг*/
-.main-pecul {
-  font-weight: 400;
-}
 .our-aim {
-  color: var(--secondary-color-text);
   font-weight: 700;
-}
-
-/*оформлення секції чим ми зайсаємось*/
-
-.main-work li {
-  display: inline;
-}
-
-/*оформлення секції наша команда*/
-.main-team {
-  background-color: #f5f4fa;
-  font-size: 16px;
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
-}
-
-.team-cards {
-  background-color: #ffffff;
-  width: 270px;
-  height: 368px;
-  display: inline-block;
-}
-
-.my-name {
+  line-height: 1.15;
+  text-transform: uppercase;
   color: var(--secondary-color-text);
-  font-weight: 500;
-}
-/*оформлення підвалу*/
-footer {
-  background-color: var(--secondary-fon-color);
-  color: var(--first-fon-color);
-}
-address {
-  font-weight: 700;
-}
-.span-logo-footer {
-  color: var(--first-fon-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-}
-.link-footer {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-  font-weight: 400;
+  font-size: 14px;
 }
 
-/*Сторінка портфоліо*/
-/*
-.work {
-  width: 1170px;
-  height: 1360px;
-} */
-
-.filtr {
-  display: inline;
-}
-
-.filtr-button {
-  height: 38px;
-  background-color: var(--first-button-color);
-  color: var(--secondary-color-text);
-  border: none;
-  font-weight: 500;
-}
-
-.filtr-button:hover,
-.filtr-button:focus {
-  background-color: var(--secondary-button-color);
-  color: var(--first-fon-color);
-}
-
-.filtr-button:active {
-  background-color: var(--secondary-button-color);
-  color: var(--first-fon-color);
-}
-
-.project .project-card {
-  border: 1px #eeeeee solid;
-  width: 370px;
-  height: 404px;
-}
-.project-card h3 {
-  font-size: 18px;
-  font-family: Raleway, sans-serif;
-  color: var(--secondary-color-text);
-  font-weight: 500;
-}
-.project-card p {
-  font-size: 16px;
-  font-family: Raleway, sans-serif;
-  color: var(--first-color-text);
-}
+/*сектор наша команда*/
