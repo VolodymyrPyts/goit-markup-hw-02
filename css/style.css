@@ -211,3 +211,10 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.project-link:hover,
+.project-link:focus {
+  color: var(--secondary-color-text);
+}
+.project-link:active {
+  color: var(--secondary-color-text);
+}
