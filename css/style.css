@@ -76,7 +76,7 @@ body {
   background-color: var(--secondary-fon-color);
 }
 
-.heading-taxt {
+.heading-text {
   color: var(--first-fon-color);
   text-transform: uppercase;
   font-size: 44px;
